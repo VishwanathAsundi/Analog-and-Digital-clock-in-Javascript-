@@ -20,7 +20,7 @@ body {
     // background-color: aqua;
     border-radius: 50%;
     position: relative;
-    padding: 2rem;
+    padding: 1.5rem;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     text-align: center;
 
@@ -65,6 +65,38 @@ body {
         position: absolute;
         left: 47%;
         top: 48%;
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    .clock_12 {
+        position: absolute;
+        top: 0;
+        left: 47%;
+        color: #fff;
+    }
+
+    .clock_3 {
+        position: absolute;
+        top: 48%;
+        right: 0;
+        color: #fff;
+    }
+
+    .clock_6 {
+        position: absolute;
+        left: 47%;
+        bottom: 0;
+        color: #fff;
+    }
+
+    .clock_9 {
+        position: absolute;
+        left: 0;
+        top: 48%;
+        color: #fff;
     }
 }
 
